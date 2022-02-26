@@ -1,0 +1,14 @@
+name: Release Beta
+
+on: [workflow_dispatch]
+
+jobs:
+  Build:
+    runs-on: macos-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.1.1
+          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
