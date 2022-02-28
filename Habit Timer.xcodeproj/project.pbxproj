@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D507696F27CADF1C00801292 /* Habit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D507696E27CADF1C00801292 /* Habit.swift */; };
+		D507697627CAE1C600801292 /* HabitList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D507697527CAE1C600801292 /* HabitList.swift */; };
+		D507697727CAE1C600801292 /* HabitList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D507697527CAE1C600801292 /* HabitList.swift */; };
+		D507697827CAE1C600801292 /* HabitList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D507697527CAE1C600801292 /* HabitList.swift */; };
+		D507697927CAE1C600801292 /* HabitList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D507697527CAE1C600801292 /* HabitList.swift */; };
+		D507698127CBEEB000801292 /* HabitListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D507698027CBEEB000801292 /* HabitListItemView.swift */; };
+		D507698227CBEEB000801292 /* HabitListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D507698027CBEEB000801292 /* HabitListItemView.swift */; };
+		D507698327CBEEB000801292 /* HabitListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D507698027CBEEB000801292 /* HabitListItemView.swift */; };
+		D507698427CBEEB000801292 /* HabitListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D507698027CBEEB000801292 /* HabitListItemView.swift */; };
 		D559ACA327CACBE400536D01 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D559ACA227CACBE400536D01 /* Tests_iOS.swift */; };
 		D559ACA527CACBE400536D01 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D559ACA427CACBE400536D01 /* Tests_iOSLaunchTests.swift */; };
 		D559ACAF27CACBE400536D01 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D559ACAE27CACBE400536D01 /* Tests_macOS.swift */; };
 		D559ACB127CACBE400536D01 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D559ACB027CACBE400536D01 /* Tests_macOSLaunchTests.swift */; };
-		D559ACB227CACBE400536D01 /* Habit_TimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D559AC8A27CACBDC00536D01 /* Habit_TimerApp.swift */; };
-		D559ACB327CACBE400536D01 /* Habit_TimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D559AC8A27CACBDC00536D01 /* Habit_TimerApp.swift */; };
-		D559ACB427CACBE400536D01 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D559AC8B27CACBDC00536D01 /* ContentView.swift */; };
-		D559ACB527CACBE400536D01 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D559AC8B27CACBDC00536D01 /* ContentView.swift */; };
+		D559ACB227CACBE400536D01 /* HabitTimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D559AC8A27CACBDC00536D01 /* HabitTimerApp.swift */; };
+		D559ACB327CACBE400536D01 /* HabitTimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D559AC8A27CACBDC00536D01 /* HabitTimerApp.swift */; };
 		D559ACB627CACBE400536D01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D559AC8C27CACBE400536D01 /* Assets.xcassets */; };
 		D559ACB727CACBE400536D01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D559AC8C27CACBE400536D01 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -37,8 +44,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D559AC8A27CACBDC00536D01 /* Habit_TimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habit_TimerApp.swift; sourceTree = "<group>"; };
-		D559AC8B27CACBDC00536D01 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D507696E27CADF1C00801292 /* Habit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habit.swift; sourceTree = "<group>"; };
+		D507697527CAE1C600801292 /* HabitList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitList.swift; sourceTree = "<group>"; };
+		D507697A27CAE4C500801292 /* Habit-Timer--macOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Habit-Timer--macOS--Info.plist"; sourceTree = "<group>"; };
+		D507698027CBEEB000801292 /* HabitListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitListItemView.swift; sourceTree = "<group>"; };
+		D559AC8A27CACBDC00536D01 /* HabitTimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitTimerApp.swift; sourceTree = "<group>"; };
 		D559AC8C27CACBE400536D01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D559AC9127CACBE400536D01 /* Habit Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Habit Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D559AC9727CACBE400536D01 /* Habit Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Habit Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,9 +93,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D507696C27CADEAE00801292 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D507696E27CADF1C00801292 /* Habit.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D507696D27CADEC900801292 /* Abstractions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Abstractions;
+			sourceTree = "<group>";
+		};
 		D559AC8427CACBDC00536D01 = {
 			isa = PBXGroup;
 			children = (
+				D507697A27CAE4C500801292 /* Habit-Timer--macOS--Info.plist */,
 				D559AC8927CACBDC00536D01 /* Shared */,
 				D559AC9827CACBE400536D01 /* macOS */,
 				D559ACA127CACBE400536D01 /* Tests iOS */,
@@ -97,8 +123,11 @@
 		D559AC8927CACBDC00536D01 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				D559AC8A27CACBDC00536D01 /* Habit_TimerApp.swift */,
-				D559AC8B27CACBDC00536D01 /* ContentView.swift */,
+				D507696D27CADEC900801292 /* Abstractions */,
+				D507696C27CADEAE00801292 /* Models */,
+				D559AC8A27CACBDC00536D01 /* HabitTimerApp.swift */,
+				D507697527CAE1C600801292 /* HabitList.swift */,
+				D507698027CBEEB000801292 /* HabitListItemView.swift */,
 				D559AC8C27CACBE400536D01 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -299,8 +328,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D559ACB427CACBE400536D01 /* ContentView.swift in Sources */,
-				D559ACB227CACBE400536D01 /* Habit_TimerApp.swift in Sources */,
+				D507696F27CADF1C00801292 /* Habit.swift in Sources */,
+				D507698127CBEEB000801292 /* HabitListItemView.swift in Sources */,
+				D507697627CAE1C600801292 /* HabitList.swift in Sources */,
+				D559ACB227CACBE400536D01 /* HabitTimerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,8 +339,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D559ACB527CACBE400536D01 /* ContentView.swift in Sources */,
-				D559ACB327CACBE400536D01 /* Habit_TimerApp.swift in Sources */,
+				D507698227CBEEB000801292 /* HabitListItemView.swift in Sources */,
+				D507697727CAE1C600801292 /* HabitList.swift in Sources */,
+				D559ACB327CACBE400536D01 /* HabitTimerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,7 +350,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D559ACA527CACBE400536D01 /* Tests_iOSLaunchTests.swift in Sources */,
+				D507698327CBEEB000801292 /* HabitListItemView.swift in Sources */,
 				D559ACA327CACBE400536D01 /* Tests_iOS.swift in Sources */,
+				D507697827CAE1C600801292 /* HabitList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,7 +361,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D559ACB127CACBE400536D01 /* Tests_macOSLaunchTests.swift in Sources */,
+				D507698427CBEEB000801292 /* HabitListItemView.swift in Sources */,
 				D559ACAF27CACBE400536D01 /* Tests_macOS.swift in Sources */,
+				D507697927CAE1C600801292 /* HabitList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -532,6 +568,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Habit-Timer--macOS--Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -560,6 +598,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Habit-Timer--macOS--Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
