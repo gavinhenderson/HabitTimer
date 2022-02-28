@@ -2,7 +2,8 @@ import SwiftUI
 
 struct HabitList: View {
     @Binding var habitList: [Habit]
-    @State var isAddingNewHabit: Bool = true
+    @State var isAddingNewHabit: Bool = false
+    @State var newHabitName: String = ""
     
     var body: some View {
         List {
@@ -26,14 +27,30 @@ struct HabitList: View {
         }
         .navigationTitle("Habits")
         .sheet(isPresented: $isAddingNewHabit) {
-            Text("Hello world")
+            NavigationView {
+                Form {
+                    Section(header: Text("Name of yor new habit")) {
+                        TextField("ie. Learn Piano", text: $newHabitName)
+                    }
+                }
                 .toolbar {
                     ToolbarItem(placement: .cancellationAction) {
                         Button("Cancel") {
                             isAddingNewHabit = false
+                            newHabitName = ""
+                        }
+                    }
+                    ToolbarItem(placement: .confirmationAction) {
+                        Button("Add Habit") {
+                            isAddingNewHabit = false
+                            let newHabit = Habit(name: newHabitName)
+                            newHabitName = ""
+                            habitList.append(newHabit)
                         }
                     }
                 }
+                .navigationTitle("New habit details")
+            }
         }
     }
 }
@@ -42,7 +59,8 @@ struct HabitList_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
             HabitList(
-                habitList: .constant(HabitListPreviewData.previewData)
+                habitList: .constant(HabitListPreviewData.previewData),
+                isAddingNewHabit: true
             )
         }
     }
