@@ -10,3 +10,4 @@ If you would benefit from this being Open Source or want a private license then 
 # Credits
 
 - [Circle arrow from LineIcons](https://lineicons.com/icons/?search=spinner-arrow)
+- [Hourglass from FontAwesome](https://fontawesome.com/icons/hourglass-start?s=solid)
