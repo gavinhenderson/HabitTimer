@@ -3,8 +3,7 @@ import SwiftUI
 struct HabitList: View {
     @Binding var habitList: [Habit]
     @State var isAddingNewHabit: Bool = false
-    @State var newHabitName: String = ""
-    
+        
     var body: some View {
         List {
             ForEach($habitList) { $habit in
@@ -28,28 +27,14 @@ struct HabitList: View {
         .navigationTitle("Habits")
         .sheet(isPresented: $isAddingNewHabit) {
             NavigationView {
-                Form {
-                    Section(header: Text("Name of yor new habit")) {
-                        TextField("ie. Learn Piano", text: $newHabitName)
+                NewHabitView(
+                    onExitNewHabitView: {
+                        isAddingNewHabit = false
+                    },
+                    onNewHabit: { newHabit in
+                        habitList.append(newHabit)
                     }
-                }
-                .toolbar {
-                    ToolbarItem(placement: .cancellationAction) {
-                        Button("Cancel") {
-                            isAddingNewHabit = false
-                            newHabitName = ""
-                        }
-                    }
-                    ToolbarItem(placement: .confirmationAction) {
-                        Button("Add Habit") {
-                            isAddingNewHabit = false
-                            let newHabit = Habit(name: newHabitName)
-                            newHabitName = ""
-                            habitList.append(newHabit)
-                        }
-                    }
-                }
-                .navigationTitle("New habit details")
+                )
             }
         }
     }
@@ -59,8 +44,7 @@ struct HabitList_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
             HabitList(
-                habitList: .constant(HabitListPreviewData.previewData),
-                isAddingNewHabit: true
+                habitList: .constant(HabitListPreviewData.previewData)
             )
         }
     }

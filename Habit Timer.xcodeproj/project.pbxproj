@@ -24,6 +24,10 @@
 		D559ACB327CACBE400536D01 /* HabitTimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D559AC8A27CACBDC00536D01 /* HabitTimerApp.swift */; };
 		D559ACB627CACBE400536D01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D559AC8C27CACBE400536D01 /* Assets.xcassets */; };
 		D559ACB727CACBE400536D01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D559AC8C27CACBE400536D01 /* Assets.xcassets */; };
+		D5E3840927D0196000A21BB1 /* NewHabitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E3840827D0196000A21BB1 /* NewHabitView.swift */; };
+		D5E3840A27D0196000A21BB1 /* NewHabitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E3840827D0196000A21BB1 /* NewHabitView.swift */; };
+		D5E3840B27D0196000A21BB1 /* NewHabitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E3840827D0196000A21BB1 /* NewHabitView.swift */; };
+		D5E3840C27D0196000A21BB1 /* NewHabitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E3840827D0196000A21BB1 /* NewHabitView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +63,7 @@
 		D559ACAA27CACBE400536D01 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D559ACAE27CACBE400536D01 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		D559ACB027CACBE400536D01 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		D5E3840827D0196000A21BB1 /* NewHabitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewHabitView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +133,7 @@
 				D559AC8A27CACBDC00536D01 /* HabitTimerApp.swift */,
 				D507697527CAE1C600801292 /* HabitList.swift */,
 				D507698027CBEEB000801292 /* HabitListItemView.swift */,
+				D5E3840827D0196000A21BB1 /* NewHabitView.swift */,
 				D559AC8C27CACBE400536D01 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -331,6 +337,7 @@
 				D507696F27CADF1C00801292 /* Habit.swift in Sources */,
 				D507698127CBEEB000801292 /* HabitListItemView.swift in Sources */,
 				D507697627CAE1C600801292 /* HabitList.swift in Sources */,
+				D5E3840927D0196000A21BB1 /* NewHabitView.swift in Sources */,
 				D559ACB227CACBE400536D01 /* HabitTimerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,6 +348,7 @@
 			files = (
 				D507698227CBEEB000801292 /* HabitListItemView.swift in Sources */,
 				D507697727CAE1C600801292 /* HabitList.swift in Sources */,
+				D5E3840A27D0196000A21BB1 /* NewHabitView.swift in Sources */,
 				D559ACB327CACBE400536D01 /* HabitTimerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -352,6 +360,7 @@
 				D559ACA527CACBE400536D01 /* Tests_iOSLaunchTests.swift in Sources */,
 				D507698327CBEEB000801292 /* HabitListItemView.swift in Sources */,
 				D559ACA327CACBE400536D01 /* Tests_iOS.swift in Sources */,
+				D5E3840B27D0196000A21BB1 /* NewHabitView.swift in Sources */,
 				D507697827CAE1C600801292 /* HabitList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,6 +372,7 @@
 				D559ACB127CACBE400536D01 /* Tests_macOSLaunchTests.swift in Sources */,
 				D507698427CBEEB000801292 /* HabitListItemView.swift in Sources */,
 				D559ACAF27CACBE400536D01 /* Tests_macOS.swift in Sources */,
+				D5E3840C27D0196000A21BB1 /* NewHabitView.swift in Sources */,
 				D507697927CAE1C600801292 /* HabitList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
