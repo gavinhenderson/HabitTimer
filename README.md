@@ -1,3 +1,7 @@
+<p align="center">
+   <img src="https://raw.githubusercontent.com/gavinhenderson/HabitTimer/main/App%20Icon/iOS/AppIcon.appiconset/App%20Logo-1024.png" alt="Habit Timer logo" width="200" />
+</p>
+
 # HabitTimer
 A iOS / Mac App to track time based habits
 
